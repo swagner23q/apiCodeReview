@@ -9,8 +9,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  cursor: url("../../img/ImpressionSelect.cur") auto;
+  cursor: url("../img/ImpressionSelect.cur") auto;
   font-family: 'Titillium Web', sans-serif;
+  background-image: url("../img/abstractWhite.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
 }
 .floating {
   -webkit-animation-name: Floatingx;
@@ -34,7 +39,3 @@ html, body {
     65% {-moz-transform:translate(0, 15px);}
     to {-moz-transform: translate(0, -0px);}
 }
-
-// http://cur.cursors-4u.net/cursors/cur-1/cur21.ani),
-
-// http://cur.cursors-4u.net/cursors/cur-1/cur21.png)
