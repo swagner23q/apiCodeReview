@@ -61,7 +61,7 @@ gulp.task('bowerCSS', function () {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('bower', ['jsBower', 'cssBower']);
+gulp.task('bower', ['jsBower', 'bowerCSS']);
 
 gulp.task('clean', function(){
   return del(['build', 'tmp']);

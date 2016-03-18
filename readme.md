@@ -1,9 +1,9 @@
 ## Sara Wagner
-#### JS Boiler Plate
+#### API Code Review
 
 ~Description~
 
-This is a project for week 1 of JavaScript at Epicodus. It includes languages **HTML, CSS, Bootstrap, Javascript, and Jquery**. This project will have a "boiler plate" setup for Javascript projects including Sass.
+This is a project for week 1 of JavaScript at Epicodus. It includes languages **HTML, CSS, Sass, Javascript, and Jquery**. This project will have fulfill the requirements for the API code review.
 
 To begin:
   -Setup files-- index.html, folder-js(with browser.js and something-interface.js including comments), .gitignore.js (copy paste from here), folder-scss and styles.scss
@@ -15,7 +15,7 @@ To begin:
   -Run bower install dependencies needed (jquery, bootstrap, etc)
 
   -Run bower init
-  
+
   -Run bowerCSS
 
   -Run gulp build
