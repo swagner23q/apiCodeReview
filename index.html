@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
@@ -9,13 +8,31 @@
   </head>
   <body>
     <div class="overLord">
-      <h1>Github API</h1>
+      <header>
+        <h1>Github API</h1>
+      </header>
+      <div class="column1">
+        <p>Enter a user name and see their repositories!</p>
+        <label for="gitUserName">Enter a user name:</label>
+        <input id="gitUserName" type="text">
+        <button class="btn-success" id="buttonSubmit">Snoop Around</button>
+        <div class="showResult">
+        </div>
+
+      </div>
+      <div class="column2">
+        <h3>Try some of these names!</h3>
+        <ul>
+          <li>swagner23q</li>
+        </ul>
+
+      </div>
 
 
 
 
 
-      
+
     </div>
 
 

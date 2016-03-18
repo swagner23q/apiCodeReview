@@ -2,3 +2,19 @@
   @include outer-container;
 
 }
+header {
+  text-align: center;
+}
+.column1 {
+  @include span-columns(6);
+
+}
+.column2 {
+  @include span-columns(6);
+  border: 1px solid black;
+  padding: 1%;
+  text-align: center;
+  li {
+    list-style: none;
+  }
+}

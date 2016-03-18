@@ -5,27 +5,12 @@
 
 This is a project for week 1 of JavaScript at Epicodus. It includes languages **HTML, CSS, Sass, Javascript, and Jquery**. This project will have fulfill the requirements for the API code review.
 
-To begin:
-  -Setup files-- index.html, folder-js(with browser.js and something-interface.js including comments), .gitignore.js (copy paste from here), folder-scss and styles.scss
-
-  -Run npm init and press enter a bunch--copy and paste dependencies from this boiler plate file
-
-  -Run npm install
-
-  -Run bower install dependencies needed (jquery, bootstrap, etc)
-
-  -Run bower init
-
-  -Run bowerCSS
-
-  -Run gulp build
-
-  -Run gulp serve and begin work
-
 ~~
 
-The program used to create this project is Atom, Git, and Terminal.
+The programs used to create this project is ***Atom, Git, and Terminal***.
 
-The program used to create this project is ***Atom, Git, and Terminal***.
+To setup locally, git clone~ https://github.com/swagner23q/apiCodeReview
+
+To view the website, go here: swagner23q.github.io/apiCodeReview
 
 &copy; 2016
