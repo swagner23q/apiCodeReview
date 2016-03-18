@@ -9,14 +9,30 @@
 html, body {
   margin: 0;
   padding: 0;
-  cursor: url("../img/ImpressionSelect.cur") auto;
+  cursor: url("../../img/ImpressionSelect.cur") auto;
   font-family: 'Titillium Web', sans-serif;
-  background-image: url("../img/abstractWhite.jpg");
-  background-position: center;
+  background-image: url("../../img/abstractWhite.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+
+
 }
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid $white;
+}
+
 .floating {
   -webkit-animation-name: Floatingx;
   -webkit-animation-duration: 3.5s;
@@ -38,4 +54,18 @@ html, body {
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 15px);}
     to {-moz-transform: translate(0, -0px);}
+}
+
+input, textarea {
+  border: 2px inset grey;
+  width: 20%;
+  height: 30px;
+  font-size: 1em;
+  border-radius: 3px;
+  padding-left: 4px;
+  box-shadow: 2px 2px 4px black;
+}
+
+input:focus, textarea:focus {
+  background: orange;
 }

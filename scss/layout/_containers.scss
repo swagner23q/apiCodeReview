@@ -24,7 +24,6 @@ header {
       font-size: 3em;
     }
 
-
   }
   p {
     @include fontBasics("UrbanJungle", $color:white, $font-size: 2.6em);
@@ -42,6 +41,8 @@ header {
 }
 .column2 {
   @include span-columns(3);
+  @extend %soBubble;
+  margin-top: 11.5%;
   border: 1px solid black;
   padding: 2%;
   border-radius: 2em;

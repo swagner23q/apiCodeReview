@@ -11,6 +11,10 @@ The programs used to create this project is ***Atom, Git, and Terminal***.
 
 To setup locally, git clone~ https://github.com/swagner23q/apiCodeReview
 
+  -You will need in run npm install and install bower dependencies to fully customize this project
+
+  -Run gulp cssBower, gulp build, then gulp serve to start working.
+
 To view the website, go here: swagner23q.github.io/apiCodeReview
 
 &copy; 2016
