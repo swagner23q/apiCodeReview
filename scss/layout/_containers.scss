@@ -6,15 +6,21 @@ header {
   text-align: center;
 }
 .column1 {
-  @include span-columns(6);
+  @include span-columns(9);
+  @include omega();
 
 }
 .column2 {
-  @include span-columns(6);
+  @include span-columns(3);
   border: 1px solid black;
   padding: 1%;
   text-align: center;
   li {
     list-style: none;
   }
+}
+.userProfiles {
+
+  img {
+    height: 10vh;  }
 }

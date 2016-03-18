@@ -1,5 +1,5 @@
 {
-  "name": "js-boiler-plate",
+  "name": "api-code-review",
   "description": "",
   "main": "index.js",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.1"
+    "jquery": "^2.2.1",
+    "moment": "^2.12.0"
   }
 }
