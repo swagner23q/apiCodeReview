@@ -2,7 +2,6 @@
 
   @font-face {
     font-family: $family;
-
     src: url('#{$path-font}/#{$file}.ttf');
     src: url('#{$path-font}/#{$file}.ttf') format('truetype');
   }
@@ -13,4 +12,18 @@
   color: $color;
   font-size: $font-size;
   background-color: $background-color;
+}
+
+@mixin position($position, $width: null, $top: null, $left: null, $bottom: null) {
+  position: $position;
+  width: $width;
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+}
+@mixin displayForm($display, $position: null, $top: null, $left: null) {
+  display: $display;
+  position: $position;
+  top: $top;
+  left: $left;
 }

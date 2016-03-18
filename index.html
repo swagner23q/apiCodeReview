@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
-    <!-- <script src="bower_components/moment/moment.js"></script> -->
     <script type="text/javascript" src="build/js/app.js"></script>
+    <meta name="viewport" content="width=device-width">
     <title>Github API</title>
   </head>
   <body>
     <header>
-      <h1>Github API Snooper</h1>
+      <video autoplay loop>
+        <source src="img/Hello-World.mp4" type="video/mp4" />
+      </video>
+      <h1>Github API</h1>
+      <p>Snoopin with Style</p>
+      <a href="#snoop"><span class="headerButton floating">Let's Snoop</span></a>
     </header>
     <div class="overLord">
-      <div class="column1">
-        <p>Enter a user name and see their repositories!</p>
-        <label for="gitUserName">Enter a user name:</label>
+      <h1>Snoop Around</h1>
+      <div class="column1" id="snoop">
+        <p>So you want to snoop around in other people's repos? <br>
+          Well you've come to the right place!
+          <img src="http://www.animateit.net/data/media/smiley712/free-rolleye-smileys-442.gif"></p>
+        <label for="gitUserName">Enter a User Name:</label>
         <input id="gitUserName" type="text">
-        <button class="btn-success" id="buttonSubmit">Snoop Around</button>
-        <h3>Here are your results, snooper</h3>
+        <button class="snoopButton" id="buttonSubmit">Snoop Around</button>
+        <span class="namesHint">?</span>
         <ol>
-          <div class="results"></div>
+          <div class="results">
+            <h3 class="h3">The Snooper Found This For you, Snooper</h3>
+          </div>
         </ol>
       </div>
       <div class="column2">
-        <h3>Try some of these names!</h3>
-        <ul>
-          <li>swagner23q</li>
-        </ul>
-        <div class="userProfiles">
-          Stuff
-        </div>
+        <h3>User Profile Info</h3>
+        <div class="userProfiles"></div>
 
       </div>
 
 
     </div>
 
-
+    <footer>
+      <p>&#169;2016</p>
+    </footer>
   </body>
 </html>

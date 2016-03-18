@@ -1,0 +1,40 @@
+.headerButton {
+  @include displayForm(inline-block, $position: absolute, $left: 44%);
+  bottom: 25%;
+  background: grey;
+  text-decoration: none;
+  color: $black;
+  padding: 15px 0;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: .4em;
+  &:hover {
+    cursor: pointer;
+    float: left;
+  }
+  &:after {
+    @include displayForm(block, $position: absolute, $top: 100%, $left: 45%);
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid grey;
+    border-right: 10px solid transparent;
+    border-bottom: 10 solid transparent;
+    border-left: 10px solid transparent;
+  }
+}
+.namesHint {
+  padding: 1px;
+  font-size: 11px;
+  border: 1px dotted $black;
+  border-radius: 10px;
+  background-color: orange;
+  font-weight: bold;
+  &:hover:after {
+    left: 35%;
+    bottom: 20%;
+    content: " Try these names: swagner23q, yvonnapc, patternandshape, or RobinBKing";
+    padding: 2px;
+  }
+}
