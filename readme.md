@@ -15,6 +15,8 @@ To setup locally, git clone~ https://github.com/swagner23q/apiCodeReview
 
   -Run gulp cssBower, gulp build, then gulp serve to start working.
 
+  -You will need to add exports for api github key.
+
 To view the website, go here: swagner23q.github.io/apiCodeReview
 
 &copy; 2016
